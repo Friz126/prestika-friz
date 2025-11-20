@@ -21,7 +21,7 @@ export default function App() {
           <p className="text-3xl font-bold mt-2">5.000</p>
         </div>
         <div className="bg-white/10 p-6 rounded-lg text-center">
-          <h3 className="text-xl">Total Mahasiswa Berprestasi</h3>
+          <h3 className="text-xl hover:underline">Total Mahasiswa Berprestasi</h3>
           <p className="text-3xl font-bold mt-2">12.000</p>
         </div>
       </section>
