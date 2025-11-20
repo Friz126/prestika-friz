@@ -1,3 +1,4 @@
+import Footer from './Footer';
 import Navigation from './Navigation';
 export default function General({ children }) {
   return (
@@ -7,6 +8,9 @@ export default function General({ children }) {
       <main className='p-6'>
         {children}
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
