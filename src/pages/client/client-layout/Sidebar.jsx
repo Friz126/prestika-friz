@@ -13,21 +13,24 @@ export default function Sidebar() {
         </Link>
       </div>
       <div className="space-y-2">
-        <Link className="block px-4 py-2 rounded-lg hover:bg-slate-700 transition flex items-center">
+        <Link to="/home-client" className="block px-4 py-2 rounded-lg hover:bg-slate-700 transition flex items-center">
+          <i className="fas fa-gauge mr-2"></i> Dashboard
+        </Link>
+        <Link to="/uhamka-ach" className="block px-4 py-2 rounded-lg hover:bg-slate-700 transition flex items-center">
           <i className="fas fa-trophy mr-2"></i>Uhamka Achievements
         </Link>
-        <Link className="block px-4 py-2 rounded-lg hover:bg-slate-700 transition flex items-center">
+        <Link to="/my-achievements" className="block px-4 py-2 rounded-lg hover:bg-slate-700 transition flex items-center">
           <i className="fa fa-trophy mr-2"></i>My Achievements
         </Link>
-        <Link className="block px-4 py-2 rounded-lg hover:bg-slate-700 transition flex items-center">
+        <Link to="/leaderboard" className="block px-4 py-2 rounded-lg hover:bg-slate-700 transition flex items-center">
           <i className="fas fa-list mr-2"></i>Leaderboard
         </Link>
-        <Link className="block px-4 py-2 rounded-lg bg-blue-600 hover:bg-white hover:text-slate-700 transition flex items-center">
-          <i className="fas fa-add mr-2"></i>Add Achievements
+        <Link to="/add-ach" className="block px-4 py-2 rounded-lg bg-blue-600 hover:bg-white hover:text-slate-700 transition flex items-center">
+          <i className="fas fa-plus mr-2"></i>Add Achievements
         </Link>
       </div>
       <div className="mt-auto pt-4">
-        <Link to="/home-client"
+        <Link to="/"
           className="block px-4 py-2 rounded-lg bg-red-600 hover:bg-white hover:text-slate-700 transition flex items-center">
           <i className="fas fa-sign-out mr-2"></i>Logout
         </Link>

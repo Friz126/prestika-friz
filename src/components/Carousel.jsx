@@ -11,7 +11,7 @@ export default function Carousel() {
       navigation
       pagination={{ clickable: true }}
       autoplay={{ delay: 2500 }}
-      className="w-full max-w-xl h-64 rounded-xl shadow-lg"
+      className="w-full max-w-xl h-72 rounded-xl shadow-lg"
     >
       <SwiperSlide>
         <img src="https://www.uhamka.ac.id/static/media/FKIP.73a225f609e63ab24aca.jpg" className="w-full h-full object-cover" />
