@@ -1,4 +1,3 @@
-import { h2 } from 'framer-motion/client';
 import { useState } from 'react';
 
 export default function RegisterForm() {
